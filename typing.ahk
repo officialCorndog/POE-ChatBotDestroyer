@@ -14,7 +14,7 @@ Loop, 10
 Send {Enter}
 Send .
 Send {Enter}
-Sleep 5
+Sleep 100
 }
 Sleep 10
 BlockInput Off

@@ -1,12 +1,11 @@
-﻿
-$POE_ChatLog = "G:\Steam_Games\steamapps\common\Path of Exile\logs\Client.txt"
-$regexBOT = ".*(Cheap & Safe & Fast).*"
+﻿$POE_ChatLog = ".\Client.txt"
+$regexBOT = ".*((C|c)heap & (S|s)afe & (F|f)ast).*"
 
 while($true){
 
     Get-Content -Tail 1 -Wait -Path $POE_ChatLog | ForEach-Object{
         if($_ -match $regexBOT){
-            write-host "Works"
+            write-host "Clearing now!"
             . "$PSScriptRoot\typing.ahk"
         }
     
