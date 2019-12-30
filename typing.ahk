@@ -9,12 +9,12 @@ Send /
 Sleep 1
 Send {BS}
 Send {Enter}
-Loop, 10
+Loop, 5
 {
 Send {Enter}
 Send .
 Send {Enter}
-Sleep 5
+Sleep 80
 }
 Sleep 10
 BlockInput Off
