@@ -26,14 +26,16 @@ do not run the typing.ahk file by itself, it is called by the powershell script 
 
 # How it works
 
-This script operates by monitoring the games chat lots which are stored in client.txt. When specific bot spam is detected the script calls an ahk macro that runs /clear in chat. 
+This script operates by live monitoring the games chat logs which are stored in client.txt. When specific bot spam is detected the script calls an ahk macro that types /clear in chat. 
 
-# Known Issues 
-The /clear function is not ideal and clears all prior chat messages including whispers, this is frustrating. We have an alternate option that allows typing other characters in your local message window and essentially moving the bot spam father up the chat where it is not immediately visible. However, POE will disconnect users for typing too much even in local chat for some insane reason. For the time being /clear is "good enough." This entire script is more or less a proof of concept for people saying GGG cannot ban bots because it would be too hard blah blah blah. This was a 1 hour effort and accomplishes blocking bot spam client side with 2 very small blocks of simple code.
+# Known Issues / Limitations
+The /clear function is not ideal and clears all prior chat messages including whispers, this is frustrating. The alternative option is typing filler text in your local message window and essentially moving the bot spam father up the chat where it is not immediately visible. However, POE will disconnect users for typing too much even in local chat for some insane reason. For the time being /clear is "good enough." This entire script is more or less a proof of concept for people saying GGG cannot ban bots because it would be too hard blah blah blah. This was a 1 hour effort and accomplishes blocking bot spam client side with 2 very small blocks of simple code. This code is free to whoever, it is not top secret protected information. If you have time to improve it please do. 
 
 Thx yall
 
 # Support
-please file bugs, issues, suggestions in this github project so we can track them
+please file bugs, issues, & suggestions in this github project so we can track them
 
 twitter.com/CorndogMD
+
+Send Donations to Doctors Without Borders
