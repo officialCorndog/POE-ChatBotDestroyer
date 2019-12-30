@@ -1,5 +1,5 @@
 ﻿$POE_ChatLog = ".\Client.txt"
-$regexBOT = ".*((C|c)heap & (S|s)afe & (F|f)ast).*"
+$regexBOT = ".*([Cc]heap|[Fa]ast|[Ss]afe).*"
 
 while($true){
 
