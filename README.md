@@ -20,7 +20,7 @@ Download both script files, place in same folder wherever you want
 
 Open powershell script with notepad, edit the first line to where your poe client.txt file is located (Steam & Non-Steam versions are different, the file is in the games install directory)
 
-BEFORE RUNNING POWERSHELL SCRIPT YOU MUST SET THE EXECUTION POLICY MENTIONED ABOVE, please google this it only requires typign 1 line. If you do not do this the script will not run. 
+BEFORE RUNNING POWERSHELL SCRIPT YOU MUST SET THE EXECUTION POLICY MENTIONED ABOVE, please google this it only requires typing 1 line. If you do not do this the script will not run. Please be advised changing this execution policy is a poor IT Security move, it allows all powershell scripts to run and in theory will make your system more vulnerable to security risks. Do not run unknown scripts off the internet without knowing what they do. 
 
 Run powershell script and leave open, this window will show when the script runs and should say "Works" after each time it detects spam in chat
 
