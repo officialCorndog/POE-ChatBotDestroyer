@@ -9,7 +9,7 @@ Send /
 Sleep 1
 Send {BS}
 Send {Enter}
-Loop, 10
+Loop, 8
 {
 Send {Enter}
 Send .
