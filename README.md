@@ -11,4 +11,4 @@ If you have any ideas please write an issue!
 # Requirements
 You need to have Autohotkey installed.
 
-Set The Execution Policy of powershell to unrestricted or Remotesigned (auto soon!)
+Set the Execution Policy of powershell to unrestricted or Remotesigned (auto soon!)
