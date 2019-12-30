@@ -17,6 +17,9 @@ Send {Enter}
 Sleep 80
 }
 Sleep 10
+Send {ENTER}
+Send #
+Send {ENTER}
 BlockInput Off
 return
 }
