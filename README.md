@@ -1,19 +1,19 @@
 # POE-ChatBotDestroyer
 
 Hello fellow Exiles!
-Are you allways annoyed that Chat Bots Spam all your view while grinding?
+Are you always annoyed that Chat Bots Spam all your view while grinding?
 
-This Will stop the Bots from spamming your view!
+This will stop the Bots from spamming your view!
 
-This Project is Currently Still an WIP
-If you have any ideas please write an issue!
+This project is currently a WIP and will be updated / developed further
 
 # Requirements
-You need to have Autohotkey installed.
+Autohotkey must be installed
 
 Set the Execution Policy of powershell to unrestricted or Remotesigned (auto soon!)
+Please google how to do this, it requires typing 1 whole line
 
-Works with both Steam & Non-Steam versions
+Works with Steam & Non-Steam versions
 
 # HOW TO USE
 Download both script files, place in same folder wherever you want 
